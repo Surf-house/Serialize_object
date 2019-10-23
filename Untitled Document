@@ -8,12 +8,11 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "symfony/yaml": "^4.3"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Src\\SerializerClasses\\": "Src/SerialazerClasses"
         }
     }
 }
+
