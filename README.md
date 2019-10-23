@@ -16,13 +16,6 @@ and README with cool  badges :)
 Installation
 ------------
 
-For creating new project based on this template just execute the following command
-
-```bash
-$ composer create-project greeflas/default-project project-name
-```
-
-> NOTE: You can add `--no-dev` right after `create-project` flag if you don't want to install dev dependencies to your project
 
 Usage
 -----
