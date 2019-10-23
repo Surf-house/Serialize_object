@@ -78,8 +78,7 @@ $ composer tests
 License
 -------
 
-[![license](https://img.shields.io/github/license/greeflas/default-project.svg)](LICENSE)
 
-This project is released under the terms of the BSD-3-Clause [license](LICENSE).
+This project is released under the terms of the BDD-3-Clause [license](LICENSE).
 
-Copyright (c) 2018 - 2019, Vladimir Kuprienko
+Copyright (c) 2019, Alexander Singaevskiy
