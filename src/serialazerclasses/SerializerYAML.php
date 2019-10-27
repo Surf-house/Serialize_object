@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Src\SerializerClasses;
+namespace src\serializerclasses;
 
 use Symfony\Component\Yaml\Yaml;
 

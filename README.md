@@ -9,9 +9,6 @@ This template has basic configuration for [PHPUnit](https://github.com/sebastian
 with PSR-4 namespaces for source code and tests, `.gitignore` with basic files and directories to exclude them from Git, changelog file
 and README with cool  badges :)
 
-[![Packagist](https://img.shields.io/packagist/v/greeflas/default-project.svg)](CHANGELOG.md)
-[![Packagist](https://img.shields.io/packagist/dt/greeflas/default-project.svg)](https://packagist.org/packages/greeflas/default-project)
-![Custom badge](https://img.shields.io/badge/greeflas-default--project-red.svg)
 
 Installation
 ------------

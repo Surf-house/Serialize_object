@@ -1,6 +1,8 @@
 <?php
 
-namespace Src\SerializerClasses;
+declare(strict_types = 1);
+
+namespace src\serializerclasses;
 
 require_once '../vendor/autoload.php';
 
@@ -30,18 +32,28 @@ require_once '../vendor/autoload.php';
 </html>
 
 <?php
-
-// first serialization
-$new_one = new SerializerClass(new SerializerJson);
-$new_one->Setname("Alexander","Rozenbaum","Rozen@ukr.net","Kyiv");
-$new_one->object_to();
-
-// second method Yaml serialization
-echo "Next method";
-$new_one->choosemethod(new SerializerYAML);
-$new_one->object_to();
+if(!isset($_POST['format']))
+   {
+    $_POST['format'] = "";
+   }
 
 
 
-
+switch ($_POST['format']) {
+    case 'Json':
+            $object = new Serializer(new SerializerJson);   
+            $object->setname("Victor","Rozenbaum","Rozen@ukr.net","Setname");
+            $object->objectto($object);
+            break;
+    case 'XML':
+            $object = new Serializer(new SerializerXML);   
+            $object->setname("Victor","Rozenbaum","Rozen@ukr.net","Setname");
+            $object->objectto($object);
+            break;
+    case 'YAML':
+            $object = new Serializer(new SerializerYAML);   
+            $object->setname("Victor","Rozenbaum","Rozen@ukr.net","Setname");
+            $object->objectto($object);
+            break;
+}
 ?>
